@@ -6,7 +6,7 @@
   "apps": [
     {
       "name": "one",
-      "root": "one",
+      "root": "apps\\one\\src",
       "outDir": "dist/one",
       "assets": [
         "assets",
@@ -16,7 +16,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
+      "tsconfig": "../../../tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -36,7 +36,7 @@
     },
     {
       "name": "two",
-      "root": "two",
+      "root": "apps\\two\\src",
       "outDir": "dist/two",
       "assets": [
         "assets",
@@ -46,7 +46,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
+      "tsconfig": "../../../tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
